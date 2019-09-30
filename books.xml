@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exercise 1.1
+Create an XML file that stores data for a library. 
+The library has two catalogues (technical books, and for cookery books).
+Each catalogue can contain a number of books (say 2 for the purpose of this exercise) . 
+Books will have an ISBN, title and author.
+Upload you .xml file to here, and to a github repository called dataRepresentation
+I will look for a link to this repository at the end of the course.
+A sample solution will be posted in two weeks-->
+<library>
+  <catalogue category="technical">
+    <book isbn="4576953124">
+      <title>Programming in Python</title>
+      <author>Mike Couch</author>
+    </book>
+    <book isbn="1247854635">
+      <title>Programming in C</title>
+      <author>David Barbour</author>
+    </book>
+  </catalogue>
+  <catalogue category="cookery">
+    <book isbn="6478916547">
+      <title>Spicy Food</title>
+      <author>Lucy Lee</author>
+    </book>
+    <book isbn="3548765246">
+      <title>Summer Barbecue</title>
+      <author>Ian Colgan</author>
+    </book>
+  </catalogue>
+</library>
