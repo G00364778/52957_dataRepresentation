@@ -1,13 +1,13 @@
 import requests
 import csv
 from bs4 import BeautifulSoup
-url = "https://www.myhome.ie/residential/mayo/property-for-sale?page=2"
+url = "https://www.myhome.ie/residential/mayo/property-for-sale?page=1"
 # load the page from the above url in the object page.
 page = requests.get(url)
 #parse only the html from page.content
 soup = BeautifulSoup(page.content, 'html.parser')
 #open a file and csv writer objects
-home_file = open('week03MyHome.csv', mode='w', newline='\n', encoding='1252')#encoding='UTF-8'
+home_file = open('week03MyHome.csv', mode='w', newline='\n', encoding='UTF-8')
 home_writer = csv.writer(home_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 #parse the listings from soup using the class label
 listings = soup.findAll("div", class_="PropertyListingCard" )
