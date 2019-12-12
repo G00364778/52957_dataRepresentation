@@ -3,6 +3,8 @@
 This is a git folder containing reference material and labs for the Data Representation Module.
 
 The details for the contents in the root folder is as follow:
+
+
 |File/Folder DTS   |Directory|Bytes |File/Folder Name     |Description                        |
 |------------------|--------|-------|---------------------|-----------------------------------|
 |03/12/2019  21:40 |  <DIR> |       |project              |Initial Code for Project           |
